@@ -1,0 +1,70 @@
+.news {
+    margin-top: 150px;
+    position: relative;
+
+    .blob {
+        position: absolute;
+        right: 0;
+        z-index: -1;
+        top: 100px;
+    }
+
+    .blob-2 {
+        position: absolute;
+        left: 0;
+        z-index: -2;
+        bottom: -40px;
+    }
+
+    .title {
+        color: #224788;
+        font-weight: 900;
+        display: flex;
+        align-items: center;
+       
+
+    }
+
+
+
+    .card {
+        border: 0;
+        border-radius: 0;
+        background-color: transparent;
+    }
+
+    .card-title {
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        padding-left: 35px;
+
+        &::before {
+            content: '';
+            background: url('../assets/svg/ellipse.svg') no-repeat;
+            background-size: contain;
+            width: 14px;
+            height: 14px;
+            display: block;
+            position: absolute;
+            left: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+    }
+
+    .card-body {
+        padding-top: 30px;
+        padding-left: 0;
+    }
+
+    .card-text {
+        padding-top: 10px;
+        line-height: 21px;
+    }
+
+}
+

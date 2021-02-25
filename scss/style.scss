@@ -1,0 +1,44 @@
+@import './section/header';
+@import './сomponents/slide';
+@import './section/about';
+@import './base/typography';
+@import './objects/button';
+@import './utilities/margin';
+@import './section/features';
+@import './section/news';
+@import './section/slide';
+@import './section/contants';
+@import './config/text';
+@import './base/media';
+
+body {
+    font-family: 'Roboto', sans-serif!important;
+}
+
+#figure-1 {
+	position: absolute;
+	bottom: 20px;
+	right: 0;
+}
+
+#figure-2 {
+	position: absolute;
+	bottom: 60px;
+	left: 0;
+}
+
+#figure-3 {
+	position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#figure-4 {
+	position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+.wow {
+	visibility: hidden;
+}

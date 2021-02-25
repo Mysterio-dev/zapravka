@@ -1,0 +1,39 @@
+.btn {
+    &__details {
+        font-size: 18px;
+        text-decoration: none;
+        color: #242E65;
+        transition: ease-in-out 0.15s;
+        &:hover {
+            color: #fe7701;
+        }
+
+        &:hover svg {
+            transform: translateX(7px);
+            transition: .3s ease;
+        }
+
+    }
+
+    &__details svg {
+        position: relative;
+        left: 20px;
+        transition: ease-in-out 0.15s;
+    }
+
+ 
+}
+
+.btn.btn  {
+    &__request {
+        font-size: 22px;
+        color: #fff;
+        border-radius: 0;
+        border: 3px solid #fff;
+        padding: 0.250rem 2.6rem;
+        width: 100%;
+        &:hover {
+            background-color: #fff;
+        }
+    }
+}  

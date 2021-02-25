@@ -1,0 +1,53 @@
+.header {
+
+    .navbar {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.671);
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.8rem;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: rgb(0, 0, 0);
+    }
+
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding-left: 30px;
+        line-height: 20px;
+
+    }
+
+    &__contacts svg {
+        position: absolute;
+        left: 0;
+    }
+
+    &__contacts a {
+        text-decoration: none;
+        font-size: 22px;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    &__contacts span {
+        color: #000000;
+        font-size: 13px;
+        font-weight: 500;
+
+    }
+
+
+
+}

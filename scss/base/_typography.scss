@@ -1,0 +1,26 @@
+.text {
+    &__wrapper {
+        background: linear-gradient(90.02deg, #FFAC01 0.82%, #FE7601 98.82%);
+        padding: 10px;
+        .title {
+            font-size: 45px;
+            font-weight: 900;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .txt {
+            font-size: 25px;
+            font-weight: 900;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+
+    
+}
+
+
+.text {
+	text-transform: lowercase;
+}

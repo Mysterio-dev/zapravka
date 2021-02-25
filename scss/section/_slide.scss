@@ -1,0 +1,42 @@
+.slide {
+    margin-top: 85px;
+    &__wrap {
+        position: relative;
+
+        .swiper-button-prev {
+            left: -45px;
+        }
+
+        .swiper-button-next {
+            right: -45px;
+        }
+
+        .swiper-button-prev::after {
+            content: '';
+            background: url('../assets/svg/left-black.svg') no-repeat;
+            width: 23px;
+            height: 89px;
+            background-size: contain;
+        }
+    
+        .swiper-button-next::after {
+            content: '';
+            background: url('../assets/svg/right-black.svg') no-repeat;
+            width: 23px;
+            height: 89px;
+            background-size: contain;
+        }
+    }
+}
+
+
+.swiper-brand {
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
+}
